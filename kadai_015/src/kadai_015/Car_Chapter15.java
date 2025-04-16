@@ -2,7 +2,7 @@ package kadai_015;
 
 public class Car_Chapter15 {
 
-	private int geer = 1; // 1速から5速のギアを表す
+	private int gear = 1; // 1速から5速のギアを表す
 	private int speed = 10; // ギアチェンジ後の速度を表す
 
 	// ギアの値により速度を変える
@@ -16,10 +16,10 @@ public class Car_Chapter15 {
 			default -> this.speed = 10;
 		}
 
-		System.out.println("ギア" + this.geer + "から"
+		System.out.println("ギア" + this.gear + "から"
 		        + afterGear + "に切り替えました");
 
-		this.geer = afterGear;
+		this.gear = afterGear;
 	}
 
 	// ギアチェンジ後の速度を表示する
